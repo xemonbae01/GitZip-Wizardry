@@ -8,14 +8,14 @@ app.use(express.json());
 
 app.use("/api/github", githubRouter);
 
+app.use("/static", express.static(path.join(__dirname, "tetroxide")));
+
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../tetroxide/ui.html"));
+  res.sendFile(path.join(__dirname, "tetroxide/ui.html"));
 });
 
-app.use("/static", express.static(path.join(__dirname, "../tetroxide")));
-
 app.use((req, res) => {
-  res.status(404).json({ error: "Route not found" });
+  res.status(404).sendFile(path.join(__dirname, "tetroxide/404.html"));
 });
 
 const PORT = process.env.PORT || 5000;
