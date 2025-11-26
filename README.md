@@ -1,9 +1,9 @@
-# Git-Down- 🪄
+# GitZip Wizardry- 🪄
 
 **Author:** XeMo Redwan  
-**GitHub Repository:** [Git-Down-](https://github.com/xemonbae01/Git-Down-.git)
+**GitHub Repository:** [GitZip Wizardry]([https://github.com/xemonbae01/GitZip-Wizardry.git])
 
-Download GitHub folders like magic ✨ with **Git-Down-**. Whether you need a single folder or multiple directories across repositories, Git-Down- makes it fast, simple, and intuitive.  
+Download GitHub folders like magic ✨ with **GitZip Wizardry-**. Whether you need a single folder or multiple directories across repositories, Git-Down- makes it fast, simple, and intuitive.  
 
 ---
 
@@ -50,7 +50,7 @@ Download GitHub folders like magic ✨ with **Git-Down-**. Whether you need a si
 Clone the repository:
 
 ```bash
-git clone https://github.com/xemonbae01/Git-Down-.git
+git clone https://github.com/xemonbae01/GitZip-Wizardry.git
 cd Git-Down-
 npm i
 npm start
